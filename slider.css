@@ -1,0 +1,4 @@
+.slide-page { position:absolute; left:0; top:0%; height:100%; width:100%}
+.slide-page.show { z-index:10; display:block; }
+.slide-page.hide { z-index:5; display:none; }
+.slide-page.active { z-index:15; display:block; }

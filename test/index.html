@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Slider Test</title>
+		<link rel="stylesheet" type="text/css" href="../slider.css">
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="../slider.js"></script>
+	</head>
+	<body>
+		<div class="container">
+	      <div class="slide-page show" style="background:red;"></div>
+	      <div class="slide-page hide" style="background:green;"></div>
+	      <div class="slide-page hide" style="background:blue;"></div>
+	      <div class="slide-page hide" style="background:grey;"></div>
+	      <div class="slide-page hide" style="background:black;"></div>
+      	</div>
+      	<script type="text/javascript">
+      		$(document).ready(function(){ Slider.init(); });
+      	</script>
+	</body>
+</html>

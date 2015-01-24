@@ -1,0 +1,24 @@
+{
+  "name": "slider.js",
+  "version": "0.0.1",
+  "main": "slider.js",
+  "dependencies": {
+    "jquery": ">=1.2"
+  },
+  "homepage": "https://github.com/bowenpay/slider.js",
+  "authors": [
+    "yijingping <jingping.yi@gmail.com>"
+  ],
+  "description": "场景应用工具类",
+  "keywords": [
+    "slider"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
